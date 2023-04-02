@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+#body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#whole-div {
+    height: 1080px;
+    width: 1920px;
+    
+}
+#vertical-div-first {
+    height: 1080px;
+    width: 650px;
+    float: left;
+    background-color: blue;
+}
+
+#vertical-div-else {
+    height: 1080px;
+    width: 635px;
+    float: left;
+    background-color: red;
+    overflow: hidden;
+}
+
+
+
+#first-contents {
+    height: 400px;
+    width: 600px;
+    background-color: blueviolet;
+}
