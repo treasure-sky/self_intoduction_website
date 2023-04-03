@@ -10,25 +10,31 @@
 </head>
 <body id="body" class="wrapper">
     <div id="whole-div">
+        <!-- First Column -->
         <div id="vertical-div-first" class="wrapper">
+            <!-- Motto -->
             <div id="motto-container">
                 <p id="motto" class="motto-elements">"For <span class="highlight">tomorrow</span></p>
                 <p id="motto" class="motto-elements">better than <span class="highlight">today</span>"</p>
                 <p id="motto-bottom" class="motto-elements">안녕하세요<br>매일매일 성장하는<br><span class="highlight" style="font-weight: 900;">이진호</span> 입니다.</p>
             </div>
+            <!-- Profile Photo -->
             <div id="yellow-box1">
                 <img alt="profile" src="jinhoprofile.jpeg" id="img-profile">
             </div>
         </div>
+        
+        <!-- Second Column -->
         <div id="vertical-div-else" class="wrapper">
+            <!-- About Me -->
             <div id="yellow-box2">
                 <div id="aboutme-container">
                     <p id="aboutme-title">About Me</p>
                     <div id="aboutme-elements">
                         <ul>
-                            <li>생년월일: 2001.08.18</li>
-                            <li>출생지: 경기도 성남시</li>
-                            <li>학력: 강원대학교 재학</li>
+                            <li><p class="bord-font">생년월일:</p> 2001.08.18</li>
+                            <li><p class="bord-font">출생지:</p> 경기도 성남시</li>
+                            <li><p class="bord-font">학력:</p> 강원대학교 컴퓨터공학과 재학중</li>
                         </ul> 
                         <div onclick="window.open('https://www.instagram.com/treasure__sky/')"; class="div-link">
                             <p style="display: inline;"><img alt="instagram" src="instalogo.svg" class="img-logo">instagram</p>
@@ -38,18 +44,57 @@
                         </div>
                     </div>
                 </div>
-            
             </div>
-            <div id="else-container" style="height: 600px; margin-top: 200px;">
-
-
+            <div id="hobby-container" class="contents-container">
+                <p class="subheading">Hobby</p> 
+                <div id="aboutme-elements">
+                    <ul>
+                        <li><p class="bord-font">요리</p></li>
+                        <p></p>
+                        <div style="background-image: url('cook1.jpg')" class="img-hobby" id="cook">
+                        </div>
+                        <div style="background-image: url('cook2.jpg')" class="img-hobby" id="cook">
+                        </div>
+                        <div style="background-image: url('cook3.jpg')" class="img-hobby" id="cook">
+                        </div>
+                        <li><p class="bord-font">사진 촬영/편집</p></li>
+                        <div style="margin-left: 20px;">
+                            <div style="background-image: url('photo1.jpg')" class="img-hobby" id="photographer">
+                            </div>
+                            <div style="background-image: url('photo2.JPG')" class="img-hobby" id="photographer">
+                            </div>
+                        </div>
+                        <div style="margin-left: 20px;">
+                            <div style="background-image: url('photo3.jpg')" class="img-hobby" id="photographer">
+                            </div>
+                            <div style="background-image: url('photo4.jpg')" class="img-hobby" id="photographer">
+                            </div>
+                        </div>
+                    </ul> 
+                </div>
+                
             </div>
-
-
-
+        
+        </div>
+        <div id="vertical-div-else" class="wrapper">
+            <div id="motivation-container" class="contents-container" >
+                <p class="subheading">Reason for starting development</p>
+                <div id="motivation-elements">
+                    <p>가지고 있는 아이디어를 프로그래밍을 통해 서비스로 구현할 수 있고,<br> 이러한 서비스를 통해 사람들에게 선한 영향력을 미칠 수 있다는 것이<br>매력적으로 다가왔습니다.</p>
+                </div>
+            </div>
+            <div id="stack-container" class="contents-container">
+                <p class="subheading">Tech Stack</p>
+                <div id="img-stack"></div>
+            </div>
+            <div id="mbti-container" class="contents-container">
+                <p class="subheading">MBTI</p>
+                <p id="mbti-header">"INTJ"</p>
+                <p id="mbti-subheader">용의주도한 전략가</p>
+                <div id="img-mbti"></div>
+            </div>
 
         </div>
-        <div id="vertical-div-else" class="wrapper"></div>
     </div>
     
 </body>
